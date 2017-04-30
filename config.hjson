@@ -1,7 +1,3 @@
-# ftp-auto-downloader
-Auto download files from an FTP server (and delete them on the server). Tell it which files to downloads and where to put them through a really simple configuration format:
-
-```
 {
     ftpServer: "192.168.1.41:8888"
     jobs:
@@ -36,27 +32,3 @@ Auto download files from an FTP server (and delete them on the server). Tell it 
         }
     ]
 }
-```
-
-I wrote that code to make it easier to download files from my android phone (which runs the ftp server through an app like [Software Data Cable](https://play.google.com/store/apps/details?id=com.damiapp.softdatacable&hl=en)).
-Note that it deletes the files on the server after downloading them. I might make that an option later.
-
-## Installation
-### Pre-compiled binaries
-Coming soon ! (or, if you've already used github releases, help is appreciated !)
-
-### From source
-#### Dependencies
-
- - Go 1.7+
-
-#### Commands to run
-
-```
-go install github.com/n-marshall/ftp-auto-downloader
-```
-
-## Usage
-First configure it by modifying the `config.hjson` file.
-
-Then run `ftp-auto-downloader` in the directory where your `config.hjson` file is located.
