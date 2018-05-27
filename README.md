@@ -3,7 +3,7 @@ Auto download files from an FTP server (and delete them on the server). Tell it 
 
 ```
 {
-    ftpServer: "192.168.1.41:8888"
+    ftpServer: "192.168.1.41:2121"
     jobs:
     [
         {

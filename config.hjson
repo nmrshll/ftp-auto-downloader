@@ -5,29 +5,34 @@
         {
             SrcPath: /storage/emulated/0/DCIM/Camera
             DestPath: /home/me/Photos/a_trier
-            AuthorizedExtensions: "jpg,gif,mp4,jpg:large,png,png:large"
+            AuthorizedExtensions: "jpg,jpeg,gif,mp4,3gp,jpg:large,jpg:small,png,png:large,png:small"
         }
         {
             SrcPath: "/storage/emulated/0/WhatsApp/Media/WhatsApp Images"
             DestPath: /home/me/Photos/Whatsapp
-            AuthorizedExtensions: "jpg,gif,mp4,jpg:large,png,png:large"
+            AuthorizedExtensions: "jpg,jpeg,gif,mp4,3gp,jpg:large,jpg:small,png,png:large,png:small"
         }
         {
             SrcPath: "/storage/emulated/0/WhatsApp/Media/WhatsApp Video"
             DestPath: /home/me/Photos/Whatsapp
-            AuthorizedExtensions: "jpg,gif,mp4,jpg:large,png,png:large"
+            AuthorizedExtensions: "jpg,jpeg,gif,mp4,3gp,jpg:large,jpg:small,png,png:large,png:small"
+        }
+        {
+            SrcPath: "/storage/emulated/0/WhatsApp/Media/WhatsApp Animated Gifs"
+            DestPath: /home/me/Photos/Whatsapp
+            AuthorizedExtensions: "jpg,jpeg,gif,mp4,3gp,jpg:large,jpg:small,png,png:large,png:small"
         }
         {
             SrcPath: /storage/emulated/0/Tumblr/
             DestPath: /home/me/upload/
-            AuthorizedExtensions: "jpg,gif,mp4,jpg:large,png,png:large"
+            AuthorizedExtensions: "jpg,jpeg,gif,mp4,3gp,jpg:large,jpg:small,png,png:large,png:small"
             DestFolderSize: 2000
-            NbFilesToLeave: 300
+            # NbFilesToLeave: 300
         }
         {
             SrcPath: /storage/emulated/0/Download/
             DestPath: /home/me/upload/
-            AuthorizedExtensions: "jpg,gif,mp4,jpg:large,png,png:large"
+            AuthorizedExtensions: "jpg,jpeg,gif,mp4,3gp,jpg:large,jpg:small,png,png:large,png:small"
             DestFolderSize: 2000
         }
     ]

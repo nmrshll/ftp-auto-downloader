@@ -27,6 +27,7 @@ type Job struct {
 	AuthorizedExtensions string
 	DestFolderSize       int
 	NbFilesToLeave       int
+	DeleteAfterDownload  bool
 }
 
 type Config struct {
@@ -48,7 +49,7 @@ func main() {
 		}
 	}()
 
-	if err = ftp.Login("username", "password"); err != nil {
+	if err = ftp.Login("admin", "wifi"); err != nil {
 		log.Fatal(err)
 	}
 
@@ -135,6 +136,7 @@ func main() {
 
 					err = ftp.Delete(srcPath)
 					if err != nil {
+						fmt.Println("[ERROR] couldn't delete %s: %s", srcPath, err)
 						panic(err)
 					}
 					fmt.Println("done: " + srcPath)
