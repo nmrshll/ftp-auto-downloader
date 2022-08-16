@@ -1,38 +1,73 @@
 {
-    ftpServer: "192.168.1.41:8888"
+    ftpServer: "192.168.1.64:8888"
     jobs:
     [
         {
             SrcPath: /storage/emulated/0/DCIM/Camera
-            DestPath: /home/me/Photos/a_trier
-            AuthorizedExtensions: "jpg,jpeg,gif,mp4,3gp,jpg:large,jpg:small,png,png:large,png:small"
+            DestPath: /Users/me/Photos/a_trier
+            AuthorizedExtensions: "jpg,jpeg,gif,mp4,3gp,jpg:large,jpg:small,png,png:large,png:small,webm,JPG,PNG,webp"
         }
         {
+            SrcPath: /storage/emulated/0/DCIM/OpenCamera
+            DestPath: /Users/me/Photos/a_trier
+            AuthorizedExtensions: "jpg,jpeg,gif,mp4,3gp,jpg:large,jpg:small,png,png:large,png:small,webm,JPG,PNG,webp"
+        }
+        {
+            SrcPath: /storage/emulated/0/DCIM/PhotoScan
+            DestPath: /Users/me/Photos/a_trier
+            AuthorizedExtensions: "jpg,jpeg,gif,mp4,3gp,jpg:large,jpg:small,png,png:large,png:small,webm,JPG,PNG,webp"
+        }
+
+        {
             SrcPath: "/storage/emulated/0/WhatsApp/Media/WhatsApp Images"
-            DestPath: /home/me/Photos/Whatsapp
-            AuthorizedExtensions: "jpg,jpeg,gif,mp4,3gp,jpg:large,jpg:small,png,png:large,png:small"
+            DestPath: /Users/me/Photos/messaging
+            AuthorizedExtensions: "jpg,jpeg,gif,mp4,3gp,jpg:large,jpg:small,png,png:large,png:small,webm,JPG,PNG,webp"
         }
         {
             SrcPath: "/storage/emulated/0/WhatsApp/Media/WhatsApp Video"
-            DestPath: /home/me/Photos/Whatsapp
-            AuthorizedExtensions: "jpg,jpeg,gif,mp4,3gp,jpg:large,jpg:small,png,png:large,png:small"
+            DestPath: /Users/me/Photos/messaging
+            AuthorizedExtensions: "jpg,jpeg,gif,mp4,3gp,jpg:large,jpg:small,png,png:large,png:small,webm,JPG,PNG,webp"
         }
         {
             SrcPath: "/storage/emulated/0/WhatsApp/Media/WhatsApp Animated Gifs"
-            DestPath: /home/me/Photos/Whatsapp
-            AuthorizedExtensions: "jpg,jpeg,gif,mp4,3gp,jpg:large,jpg:small,png,png:large,png:small"
+            DestPath: /Users/me/Photos/messaging
+            AuthorizedExtensions: "jpg,jpeg,gif,mp4,3gp,jpg:large,jpg:small,png,png:large,png:small,webm,JPG,PNG,webp"
         }
         {
+            SrcPath: "/storage/emulated/0/Pictures/Telegram X"
+            DestPath: /Users/me/Photos/messaging
+            AuthorizedExtensions: "jpg,jpeg,gif,mp4,3gp,jpg:large,jpg:small,png,png:large,png:small,webm,JPG,PNG,webp"
+        }
+
+        {
             SrcPath: /storage/emulated/0/Tumblr/
-            DestPath: /home/me/upload/
-            AuthorizedExtensions: "jpg,jpeg,gif,mp4,3gp,jpg:large,jpg:small,png,png:large,png:small"
+            DestPath: /Users/me/upload/
+            AuthorizedExtensions: "jpg,jpeg,gif,mp4,3gp,jpg:large,jpg:small,png,png:large,png:small,webm,JPG,PNG,webp"
             DestFolderSize: 2000
             # NbFilesToLeave: 300
         }
         {
             SrcPath: /storage/emulated/0/Download/
-            DestPath: /home/me/upload/
-            AuthorizedExtensions: "jpg,jpeg,gif,mp4,3gp,jpg:large,jpg:small,png,png:large,png:small"
+            DestPath: /Users/me/upload/
+            AuthorizedExtensions: "jpg,jpeg,gif,mp4,3gp,jpg:large,jpg:small,png,png:large,png:small,webm,JPG,PNG,webp"
+            DestFolderSize: 2000
+        }
+        {
+            SrcPath: /storage/emulated/0/Download/
+            DestPath: /Users/me/upload/
+            AuthorizedExtensions: "jpg,jpeg,gif,mp4,3gp,jpg:large,jpg:small,png,png:large,png:small,webm,JPG,PNG,webp"
+            DestFolderSize: 2000
+        }
+        {
+            SrcPath: /storage/emulated/0/Pictures/Reddit/
+            DestPath: /Users/me/upload/
+            AuthorizedExtensions: "jpg,jpeg,gif,mp4,3gp,jpg:large,jpg:small,png,png:large,png:small,webm,JPG,PNG,webp"
+            DestFolderSize: 2000
+        }
+        {
+            SrcPath: /storage/emulated/0/OGMods/Instagram/
+            DestPath: /Users/me/upload/
+            AuthorizedExtensions: "jpg,jpeg,gif,mp4,3gp,jpg:large,jpg:small,png,png:large,png:small,webm,JPG,PNG,webp"
             DestFolderSize: 2000
         }
     ]

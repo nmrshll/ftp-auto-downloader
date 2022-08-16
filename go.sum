@@ -1,0 +1,6 @@
+github.com/client9/xson v0.0.0-20180321172152-0e50cdfc08c0 h1:dDDdcbYxoxlR7iYTJ3XT6d/qIqYW2KE9PWBu4kYCYXM=
+github.com/client9/xson v0.0.0-20180321172152-0e50cdfc08c0/go.mod h1:re3WIBThh7PjRq7oJGTz0M+BXQrqYqc2f04R4kSk7a8=
+github.com/n-marshall/ftp v0.0.0-20170304123431-7b85eb4638a2 h1:PoBkgSYjeYLpMnx4NwH9e+FIXSBeN6gh+Ca0LSlVFs0=
+github.com/n-marshall/ftp v0.0.0-20170304123431-7b85eb4638a2/go.mod h1:odO5TEFL78TOeVlvPMN1eKYou//st2tkN3JBDLB2b74=
+github.com/n-marshall/rndm-go v0.0.0-20170430161430-8da3024e53de h1:kVaRFLjaJ7YGIX1Hp/SM5gmL1MY0FhBfVjE1l9I2KBQ=
+github.com/n-marshall/rndm-go v0.0.0-20170430161430-8da3024e53de/go.mod h1:wtTjvEOGCJKyRcrko9xqD9V7LEwcdxM1EMAuEIDVFMI=
